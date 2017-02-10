@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		572BDAEF1E4C245900F8A134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BDAEE1E4C245900F8A134 /* main.m */; };
+		572BDAFA1E4C39B100F8A134 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572BDAF91E4C39B100F8A134 /* CoreData.framework */; };
+		572BDAFD1E4C468B00F8A134 /* TipModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 572BDAFB1E4C468B00F8A134 /* TipModel.xcdatamodeld */; };
+		572BDB031E4C493400F8A134 /* ManagedUserTipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BDB021E4C493400F8A134 /* ManagedUserTipInfo.m */; };
+		573E03F11E4D8C8B00D2FE1E /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E03F01E4D8C8B00D2FE1E /* NSMutableArray+Shuffle.m */; };
+		573E03FD1E4DAB5E00D2FE1E /* TipOfTheDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E03FC1E4DAB5E00D2FE1E /* TipOfTheDayTests.m */; };
+		573E04021E4DAB6C00D2FE1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573E03F41E4DA9D100D2FE1E /* XCTest.framework */; };
+		573E04061E4DAD0E00D2FE1E /* TipsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E04051E4DAD0E00D2FE1E /* TipsGenerator.m */; };
+		573E04091E4DAE1600D2FE1E /* TipsManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E04081E4DAE1600D2FE1E /* TipsManagedObjectContext.m */; };
+		573E040A1E4DD5E900D2FE1E /* TipsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E04051E4DAD0E00D2FE1E /* TipsGenerator.m */; };
+		573E040B1E4DD5E900D2FE1E /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E03F01E4D8C8B00D2FE1E /* NSMutableArray+Shuffle.m */; };
+		573E040C1E4DD5E900D2FE1E /* ManagedUserTipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 572BDB021E4C493400F8A134 /* ManagedUserTipInfo.m */; };
+		573E040D1E4DD5E900D2FE1E /* TipsManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E04081E4DAE1600D2FE1E /* TipsManagedObjectContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +37,20 @@
 /* Begin PBXFileReference section */
 		572BDAEB1E4C245900F8A134 /* TipOfTheDay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TipOfTheDay; sourceTree = BUILT_PRODUCTS_DIR; };
 		572BDAEE1E4C245900F8A134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		572BDAF91E4C39B100F8A134 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		572BDAFC1E4C468B00F8A134 /* TipModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TipModel.xcdatamodel; sourceTree = "<group>"; };
+		572BDB011E4C493400F8A134 /* ManagedUserTipInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedUserTipInfo.h; sourceTree = "<group>"; };
+		572BDB021E4C493400F8A134 /* ManagedUserTipInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedUserTipInfo.m; sourceTree = "<group>"; };
+		573E03EF1E4D8C8B00D2FE1E /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		573E03F01E4D8C8B00D2FE1E /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		573E03F41E4DA9D100D2FE1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		573E03FA1E4DAB5E00D2FE1E /* TipOfTheDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipOfTheDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		573E03FC1E4DAB5E00D2FE1E /* TipOfTheDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipOfTheDayTests.m; sourceTree = "<group>"; };
+		573E03FE1E4DAB5E00D2FE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573E04041E4DAD0E00D2FE1E /* TipsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsGenerator.h; sourceTree = "<group>"; };
+		573E04051E4DAD0E00D2FE1E /* TipsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsGenerator.m; sourceTree = "<group>"; };
+		573E04071E4DAE1600D2FE1E /* TipsManagedObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsManagedObjectContext.h; sourceTree = "<group>"; };
+		573E04081E4DAE1600D2FE1E /* TipsManagedObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsManagedObjectContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572BDAFA1E4C39B100F8A134 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573E03F71E4DAB5E00D2FE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E04021E4DAB6C00D2FE1E /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				572BDAED1E4C245900F8A134 /* TipOfTheDay */,
+				573E03FB1E4DAB5E00D2FE1E /* TipOfTheDayTests */,
 				572BDAEC1E4C245900F8A134 /* Products */,
+				572BDAF81E4C39B100F8A134 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				572BDAEB1E4C245900F8A134 /* TipOfTheDay */,
+				573E03FA1E4DAB5E00D2FE1E /* TipOfTheDayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +96,43 @@
 			isa = PBXGroup;
 			children = (
 				572BDAEE1E4C245900F8A134 /* main.m */,
+				573E04041E4DAD0E00D2FE1E /* TipsGenerator.h */,
+				573E04051E4DAD0E00D2FE1E /* TipsGenerator.m */,
+				573E03EF1E4D8C8B00D2FE1E /* NSMutableArray+Shuffle.h */,
+				573E03F01E4D8C8B00D2FE1E /* NSMutableArray+Shuffle.m */,
+				573E04031E4DABAE00D2FE1E /* CoreData */,
 			);
 			path = TipOfTheDay;
+			sourceTree = "<group>";
+		};
+		572BDAF81E4C39B100F8A134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				573E03F41E4DA9D100D2FE1E /* XCTest.framework */,
+				572BDAF91E4C39B100F8A134 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573E03FB1E4DAB5E00D2FE1E /* TipOfTheDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				573E03FC1E4DAB5E00D2FE1E /* TipOfTheDayTests.m */,
+				573E03FE1E4DAB5E00D2FE1E /* Info.plist */,
+			);
+			path = TipOfTheDayTests;
+			sourceTree = "<group>";
+		};
+		573E04031E4DABAE00D2FE1E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				572BDB011E4C493400F8A134 /* ManagedUserTipInfo.h */,
+				572BDB021E4C493400F8A134 /* ManagedUserTipInfo.m */,
+				572BDAFB1E4C468B00F8A134 /* TipModel.xcdatamodeld */,
+				573E04071E4DAE1600D2FE1E /* TipsManagedObjectContext.h */,
+				573E04081E4DAE1600D2FE1E /* TipsManagedObjectContext.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +155,23 @@
 			productReference = 572BDAEB1E4C245900F8A134 /* TipOfTheDay */;
 			productType = "com.apple.product-type.tool";
 		};
+		573E03F91E4DAB5E00D2FE1E /* TipOfTheDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573E03FF1E4DAB5E00D2FE1E /* Build configuration list for PBXNativeTarget "TipOfTheDayTests" */;
+			buildPhases = (
+				573E03F61E4DAB5E00D2FE1E /* Sources */,
+				573E03F71E4DAB5E00D2FE1E /* Frameworks */,
+				573E03F81E4DAB5E00D2FE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipOfTheDayTests;
+			productName = TipOfTheDayTests;
+			productReference = 573E03FA1E4DAB5E00D2FE1E /* TipOfTheDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +182,10 @@
 				ORGANIZATIONNAME = "Tara Cates";
 				TargetAttributes = {
 					572BDAEA1E4C245900F8A134 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					573E03F91E4DAB5E00D2FE1E = {
 						CreatedOnToolsVersion = 8.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,9 +204,20 @@
 			projectRoot = "";
 			targets = (
 				572BDAEA1E4C245900F8A134 /* TipOfTheDay */,
+				573E03F91E4DAB5E00D2FE1E /* TipOfTheDayTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573E03F81E4DAB5E00D2FE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		572BDAE71E4C245900F8A134 /* Sources */ = {
@@ -120,6 +225,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				572BDAEF1E4C245900F8A134 /* main.m in Sources */,
+				573E03F11E4D8C8B00D2FE1E /* NSMutableArray+Shuffle.m in Sources */,
+				572BDB031E4C493400F8A134 /* ManagedUserTipInfo.m in Sources */,
+				573E04061E4DAD0E00D2FE1E /* TipsGenerator.m in Sources */,
+				573E04091E4DAE1600D2FE1E /* TipsManagedObjectContext.m in Sources */,
+				572BDAFD1E4C468B00F8A134 /* TipModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573E03F61E4DAB5E00D2FE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573E040A1E4DD5E900D2FE1E /* TipsGenerator.m in Sources */,
+				573E040B1E4DD5E900D2FE1E /* NSMutableArray+Shuffle.m in Sources */,
+				573E040C1E4DD5E900D2FE1E /* ManagedUserTipInfo.m in Sources */,
+				573E040D1E4DD5E900D2FE1E /* TipsManagedObjectContext.m in Sources */,
+				573E03FD1E4DAB5E00D2FE1E /* TipOfTheDayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +351,28 @@
 			};
 			name = Release;
 		};
+		573E04001E4DAB5E00D2FE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TipOfTheDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TipOfTheDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		573E04011E4DAB5E00D2FE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TipOfTheDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TipOfTheDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -248,8 +392,30 @@
 				572BDAF41E4C245900F8A134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573E03FF1E4DAB5E00D2FE1E /* Build configuration list for PBXNativeTarget "TipOfTheDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573E04001E4DAB5E00D2FE1E /* Debug */,
+				573E04011E4DAB5E00D2FE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		572BDAFB1E4C468B00F8A134 /* TipModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				572BDAFC1E4C468B00F8A134 /* TipModel.xcdatamodel */,
+			);
+			currentVersion = 572BDAFC1E4C468B00F8A134 /* TipModel.xcdatamodel */;
+			path = TipModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 572BDAE31E4C245900F8A134 /* Project object */;
 }
