@@ -51,17 +51,6 @@
     
     NSString *STORE_TYPE = NSXMLStoreType;
     NSString *STORE_FILENAME = @"CDCLI.cdcli";
-//    NSString *SUPPORT_DIRECTORY = @"CDCLI";
-
-    /*
-     Create the Core Data stack:
-     
-     * A persistent store coordinator
-     * The managed object context.
-     
-     The persistent store coordinator requires a managed object model; also associate a persistent store.
-     Initialize the managed object context for use on the main queue, and set its persistent store coordinator.
-     */
     
     NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: [TipsManagedObjectContext managedObjectModel]];
     

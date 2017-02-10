@@ -160,14 +160,11 @@
     time_t userRandomSeed = self.randomNumberSeed;
     NSUInteger usersCurrentTipIndex = self.currentTipIndex;
     NSString *userLocale = self.locale;
-//    NSMutableArray <NSDictionary *> *mutableTips = [[NSMutableArray alloc] initWithArray:tips];
     
     NSMutableArray *shuffledArrayOfIndexes = [tips mutableArrayOfIndexes];
     [shuffledArrayOfIndexes shuffleWithSeed:userRandomSeed];
     
-    
     if (usersCurrentTipIndex < tips.count) {
-//        [mutableTips shuffleWithSeed:randomSeed];
         NSNumber *randomizedUserTipIndex = shuffledArrayOfIndexes[usersCurrentTipIndex];
 
         NSDictionary *currentTipsInAllLocales = tips[randomizedUserTipIndex.unsignedIntegerValue];
@@ -178,9 +175,7 @@
         return currentTipString;        
     } else {
         return @"There are no more tips left.";
-//        NSLog(@"There are no more tips left.");
     }
-
 }
 
 @end
