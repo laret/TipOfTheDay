@@ -37,9 +37,4 @@
     return array;
 }
 
-//- (NSUInteger)nextRandomIndexWithSeed:(time_t)seed currentIndex:(NSUInteger)currentIndex
-//{
-//    self.count
-//}
-
 @end

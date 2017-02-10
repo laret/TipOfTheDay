@@ -12,8 +12,6 @@
 #import "ManagedUserTipInfo.h"
 #import "TipsManagedObjectContext.h"
 
-//NSString *defaultLocale = @"[en]";
-//
 @interface TipsGenerator()
 
 @property NSManagedObjectModel *mom;
